@@ -1,0 +1,26 @@
+{
+  "name": "labsite",
+  "version": "1.0.0",
+  "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claraeclara/lab-express-basic-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claraeclara/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/claraeclara/lab-express-basic-site#readme"
+}
