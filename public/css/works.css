@@ -1,0 +1,15 @@
+html {
+  width: 1366px;
+  height: 768px;
+  background-color: cornsilk;
+  color: darkred;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}

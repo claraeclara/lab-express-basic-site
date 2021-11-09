@@ -5,7 +5,6 @@ const app = express();
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  //__dirname is the absolute path to the server
   res.sendFile(__dirname + "/public/views/home.html");
 });
 
@@ -18,7 +17,7 @@ app.get("/works", (req, res) => {
 });
 
 app.get("/photogallery", (req, res) => {
-  res.sendFile(__dirname + "/public/views/photoGallery.html");
+  res.sendFile(__dirname + "/public/views/photo-gallery.html");
 });
 
 app.listen(3000, () => {
